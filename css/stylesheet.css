@@ -1,0 +1,298 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body
+	{
+
+	}
+h1 
+	{
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		font-family: 'Lucida Calligraphy', 'Textile', 'Impact', 'sans-serif';
+		font-size: 76px;
+		font-weight: bold;
+	}
+button
+	{
+		width: 150px;
+		padding: 5px;
+		font-size: 18px;
+		font-family: 'Helvetica', 'sans-serif';
+		-moz-box-shadow:inset 0px 1px 0px 0px #dcecfb;
+		-webkit-box-shadow:inset 0px 1px 0px 0px #dcecfb;
+		box-shadow:inset 0px 1px 0px 0px #dcecfb;
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bddbfa), color-stop(1, #80b5ea));
+		background:-moz-linear-gradient(top, #bddbfa 5%, #80b5ea 100%);
+		background:-webkit-linear-gradient(top, #bddbfa 5%, #80b5ea 100%);
+		background:-o-linear-gradient(top, #bddbfa 5%, #80b5ea 100%);
+		background:-ms-linear-gradient(top, #bddbfa 5%, #80b5ea 100%);
+		background:linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bddbfa', endColorstr='#80b5ea',GradientType=0);
+		background-color:#bddbfa;
+		-moz-border-radius:6px;
+		-webkit-border-radius:6px;
+		border-radius:6px;
+		border:1px solid #84bbf3;
+		display:inline-block;
+		cursor:pointer;
+		color:#ffffff;
+		font-weight:bold;
+		padding:6px 24px;
+		text-decoration:none;
+		text-shadow:0px 1px 0px #528ecc;
+}
+button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #80b5ea), color-stop(1, #bddbfa));
+	background:-moz-linear-gradient(top, #80b5ea 5%, #bddbfa 100%);
+	background:-webkit-linear-gradient(top, #80b5ea 5%, #bddbfa 100%);
+	background:-o-linear-gradient(top, #80b5ea 5%, #bddbfa 100%);
+	background:-ms-linear-gradient(top, #80b5ea 5%, #bddbfa 100%);
+	background:linear-gradient(to bottom, #80b5ea 5%, #bddbfa 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#80b5ea', endColorstr='#bddbfa',GradientType=0);
+	background-color:#80b5ea;
+}
+	}
+
+#Wrapper
+	{
+		width: 100%;
+		height: 100%;		
+	}
+#BackgroundColor
+	{
+		width: 1920px;
+		height: 1080px;
+	}
+#BackgroundImage
+	{
+		position:absolute;
+    	bottom: 0px;
+		width: 100%;
+		height: 100%;
+	}
+#BackgroundImage2
+	{
+		position:absolute;
+    	bottom: 0px;
+		width: 100%;
+		height: 100%;
+	}
+
+#Rainfall
+	{
+		z-index: 90;
+		position:absolute;
+    	bottom: 0px;
+		width: 100%;
+		height: 100%;
+	}
+#Snowfall
+	{
+		z-index: 90;
+		position:absolute;
+    	bottom: 0px;
+		width: 100%;
+		height: 100%;
+	}
+#Caption 
+	{
+		z-index: 10;
+		position: absolute;
+    	top:135px;
+    	left: 220px;
+    	color: #adceff;
+    	text-shadow:5px 5px 5px black;
+	}
+#CaptionSilhouette 
+	{
+		z-index: 15;
+		position: absolute;
+    	top:135px;
+    	left: 220px;
+    	color: black;
+	}
+
+#Menu 
+	{
+		z-index: 100;
+		position: absolute;
+    	top:700px;
+    	left: 360px;
+    	vertical-align: center;
+	}
+#Weather
+	{
+		z-index: 150;
+		font-size: 32px;
+		font-family: 'Helvetica', 'sans-serif';
+
+	}
+#Skyline
+	{
+		background: url("../images/skyline.png");
+		background-repeat: no-repeat;
+		z-index: 25;
+		position:absolute;
+    	bottom: 0px;
+		width: 100%;
+		height: 100%;
+	}
+#Silhouette
+	{
+		position:absolute;
+    	bottom: 0px;
+		width: 100%;
+		height: 100%;
+		background: url("../images/skyline-silhouette.png");
+		background-repeat: no-repeat;
+		z-index: 50;
+	}
+#Weather
+	{
+		color: white;
+		font-size: 24;
+	}
+.underline 
+	{
+		text-decoration: underline;
+	}
+
+.yellowBackground
+	{
+		background-color: #ecec00;
+	}
+.blueBackground
+	{
+		background-color: blue;
+	}
+
+.silhouette 
+	{
+
+	}
+.skyline 
+	{
+		
+	}
+
+.Clear 
+	{
+		background: url("../images/sunny-sky.jpg"); /*Source: https://i.ytimg.com/vi/GnKJ-_DspMI/maxresdefault.jpg*/
+		background-repeat: no-repeat;
+	}
+
+.partiallyCloudy 
+	{
+		background: url("../images/partially-cloudy-sky.jpg"); /*Source: http://studeri.org/wp-content/uploads/2015/01/blue-sky-with-sun.jpg*/
+		background-repeat: no-repeat;
+	}
+.partiallyCloudy2 
+	{
+		background: url("../images/partially-cloudy-sky.jpg"); /*Source: http://studeri.org/wp-content/uploads/2015/01/blue-sky-with-sun.jpg*/
+		background-repeat: no-repeat;
+	}
+
+.Clouds 
+	{
+		background: url("../images/cloudy-sky.jpg");
+		background-repeat: no-repeat;
+	}
+
+.Rain 
+	{
+		background: url("../images/rainy-sky.jpg");
+		background-repeat: no-repeat;
+	}
+
+/*Snow effect*/
+.Snow
+	{
+		margin: 0px;
+	    overflow: hidden;
+	    background: url("../images/snowy-sky.jpg");
+		background-repeat: no-repeat;
+	}
+
+.stormy 
+	{
+		background: url("../images/stormy-sky.jpg");
+		background-repeat: no-repeat;
+	}
+.skew
+	{
+		transform: scale(0.8) scaleZ(1.0) rotateX(9deg);
+		transform-origin: 0% 0%;
+		perspective: 200;-webkit-transform: scale(0.8) scaleZ(1.0) rotateX(9deg);
+		-webkit-transform-origin: 0% 0%;
+		-webkit-perspective: 200;
+		-webkit-perspective-origin: 50% 50%;
+		-moz-transform: scale(0.8) scaleZ(1.0) rotateX(9deg);
+		-moz-transform-origin: 0% 0%;
+		-moz-perspective: 200;
+		-moz-perspective-origin: 50% 50%;
+		-o-transform: scale(0.8) scaleZ(1.0) rotateX(9deg);
+		-o-transform-origin: 0% 0%;
+		-o-perspective: 200;
+		-o-perspective-origin: 50% 50%;
+		-ms-transform: scale(0.8) scaleZ(1.0) rotateX(9deg);
+		-ms-transform-origin: 0% 0%;
+		-ms-perspective: 200;
+		-ms-perspective-origin: 50% 50%;
+		transform: scale(0.8) scaleZ(1.0) rotateX(9deg);
+		transform-origin: 0% 0%;
+		perspective: 200;
+		perspective-origin: 50% 50%;
+	}
+
+
+/*Rain effect*/
+/*html{height:100%;}*/
+body {
+background:#0D343A;
+background:-webkit-gradient(linear,0% 0%,0% 100%, from(rgba(13,52,58,1) ), to(#000000)  );
+background: -moz-linear-gradient(top, rgba(13,52,58,1) 0%, rgba(0,0,0,1) 100%);
+
+overflow:hidden;}
+
+
+.drop {
+  background:-webkit-gradient(linear,0% 0%,0% 100%, from(rgba(13,52,58,50) ), to(rgba(255,255,255,0.50))  );
+  background: -moz-linear-gradient(top, rgba(13,52,58,50) 0%, rgba(255,255,255,.8) 100%);
+	width:1px;
+	height:64px;
+	position: absolute;
+	bottom:200px;
+	-webkit-animation: fall .63s linear infinite;
+  -moz-animation: fall .63s linear infinite;
+  
+}
+
+/* animate the drops*/
+@-webkit-keyframes fall {
+	to {margin-top:900px;}
+}
+@-moz-keyframes fall {
+	to {margin-top:900px;}
+}
+
+
